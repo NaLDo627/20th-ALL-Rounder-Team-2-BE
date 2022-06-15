@@ -12,3 +12,4 @@ COPY build/libs/knowlly-api-0.0.1-SNAPSHOT.jar /home/gradle/project
 
 ENTRYPOINT ["java","-jar","-Duser.timezone=Asia/Seoul","/home/gradle/project/knowlly-api-0.0.1-SNAPSHOT.jar"]
 EXPOSE 8080
+
