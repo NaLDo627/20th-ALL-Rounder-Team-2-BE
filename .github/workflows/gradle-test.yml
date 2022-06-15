@@ -35,7 +35,7 @@ jobs:
       uses: EnricoMi/publish-unit-test-result-action@v1
       if: ${{ always() }}
       with:
-        files: build/test-results/**/*.xml
+        files: ./knowlly-core/build/test-results/**/*.xml
 
     - name: Report Codecov Test Coverage
       uses: codecov/codecov-action@v2
